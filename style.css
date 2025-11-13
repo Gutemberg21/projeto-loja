@@ -1,0 +1,97 @@
+*{background-color: #1a1a1a;
+padding: 0%;
+margin: 0%;}
+
+li{list-style: none; /*tira a lista*/}
+
+.textobarra{padding: 50px; /*transforma em btn*/}
+
+.banner {width: 1000px; height: 800px;
+background-image: url("assents/banner.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+ul{display: flex; flex-direction: row; /* alinha na horizontal*/}
+
+li a {text-decoration: none; color: white; font-size: 20px;}
+
+.bi{font-size: 35px; padding-right: 20px;
+align-items: end; justify-content: end; flex-direction: row-reverse; color: #4c544c; }
+
+nav{display: flex; flex-direction: row;
+align-items: center; justify-content: space-between;}
+
+.logo {width: 130px;
+height: 130px;
+}
+p{color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

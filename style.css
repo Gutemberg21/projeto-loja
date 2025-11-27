@@ -1,97 +1,283 @@
-*{background-color: #1a1a1a;
-padding: 0%;
-margin: 0%;}
+body {background-color: #333333;}
 
-li{list-style: none; /*tira a lista*/}
+* {
 
-.textobarra{padding: 50px; /*transforma em btn*/}
-
-.banner {width: 1000px; height: 800px;
-background-image: url("assents/banner.png");
-background-repeat: no-repeat;
-background-size: cover;}
-
-ul{display: flex; flex-direction: row; /* alinha na horizontal*/}
-
-li a {text-decoration: none; color: white; font-size: 20px;}
-
-.bi{font-size: 35px; padding-right: 20px;
-align-items: end; justify-content: end; flex-direction: row-reverse; color: #4c544c; }
-
-nav{display: flex; flex-direction: row;
-align-items: center; justify-content: space-between;}
-
-.logo {width: 130px;
-height: 130px;
+    padding: 0%;
+    margin: 0%;
 }
-p{color: white;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+li {
+    list-style: none;
+    /*tira a lista*/
+}
+
+.textobarra {
+    padding: 50px;
+    /*transforma em btn*/
+}
+
+.banner { display: flex; align-items: start; justify-content: start; 
+    width: 1000px;
+    height: 450px;
+    background-image: url("assents/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /* alinha na horizontal*/
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.iconsinicio {
+    font-size: 43px;
+    padding-right: 20px;
+    align-items: end;
+    justify-content: end;
+    flex-direction: row-reverse;
+    color: #4c544c;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+}
+
+.textobanner {
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.btn {
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 55px;
+    background-color: #333333;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+   
+  
+}
+
+    
+  
+.banner-estrutura {
+    width: 220px;/*alterar o tamanho da minha caixa*/ 
+    padding: 30px;  
+  
+}
+ 
+.section-banner {
+display: flex;
+justify-content: center; /*formata o alinhamento do banner*/
+align-items: center;
+}
+
+.titulo{ font-size: 35px;
+
+color: floralwhite;
+}
+
+.titulo2{ font-size: 35px;
+
+color: floralwhite;
+}
+
+
+.estrutura-titulo {
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+.Produtos{
+height: 350px;
+width: 200px;
+}
+
+.valor{
+color: floralwhite;
+font-size: 14px;
+font-weight: bold;
+}
+
+.card-texto{
+display: flex;
+justify-content: center;
+align-items: center; 
+flex-direction: row;
+flex-direction: column;
+width: 200px;}
+
+
+.card{
+
+    color: floralwhite ;
+    width: 250px;
+    height: 430px;
+   
+}
+.banner-xbox { 
+    width: 1100px;
+    height: 449px;
+    background-image: url("assents/x-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    padding-bottom: 80px;
+ 
+ 
+}
+
+.bannerestrutura{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.textobannerxbox{ 
+    font-size: 25px;
+    color:white;
+    font-weight: 700;
+    display: flex; align-items: start;  justify-content: end;
+}
+
+.cardxbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+ margin-left: 110px;
+}
+
+.cores{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+}
+
+.vermelho{
+background-color: red;
+}
+
+.amarelo {
+background-color: yellow;}
+
+.azul{
+background-color: blue;}
+
+.caixa-cores{display: flex; flex-direction: row; padding: 5px; }
+
+.carrossel { display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+     gap: 25px;}
+
+     
+     .xbox-caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        height: 50px;
+        margin: 20px;
+        }
+
+        .footer {
+            width: 100%;
+            background: #111;
+            color: #ccc;
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+            border-radius: 18px;
+        }
+        
+        .orgfooter {
+            width: 90%;
+            max-width: 1200px;
+            
+        }
+        
+        .colunas {
+            display: flex;
+            gap: 80px;
+            margin-bottom: 30px;
+            gap: 250px;
+            margin: 7px;
+            padding: 20px;
+        }
+        
+        .footercoluna h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .footercoluna a {
+            display: block;
+            color: #ccc;
+            text-decoration: none;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+        
+
+        
+        
+        .rodape{
+        background-color: #333333;
+       
+          
+        }
+        
+        .textorodape{
+        color: #ffff;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 20px;
+        margin: 7px;
+        }
+
+.redes-sociais {color: whitesmoke; display: flex; flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+padding: 20px;
+gap: 30px;
+}
+
+.texto-final {display: flex;
+justify-content: center;
+gap: 30px;
+flex-direction: row;
+}
+
+.logofinal{ width: 110px;
+    height: 110px;
+}
+
+.lugarlogofinal {display: flex; 
+        align-items: end;
+    justify-content: end;}
